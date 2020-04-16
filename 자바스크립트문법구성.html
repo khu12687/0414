@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+//자바스크립트의 문법구성 변수,연산자,제어문,함수,배열,객체 지원
+                                // DOM API를 지원 html문서를 제어할수있다
+                                // 내장(Built-in)객체 지원(유용한 기능을 지원하기위해)
+                                // 자바스크립트 자체적으로 이미 존재하는 객채
+//주요 내용객체
+/*
+주요 내장객체 중요!!!!
+1) Array
+    사용예) var arr = new Array(); 즉 배열이 내장객체였다!!
+2) Date
+    날짜 관련한 유용한 기능을 모아놓은 객체
+3) String
+    문자열과 관련된 기능을 모아놓은 객체
+// var str = "korea"; 명시적 생성
+// var str2 = new String("korea"); 암시적 생성
+4) Marth
+    수학적 개산과 관련된 유용한 기능을 모아놓은 객체
+5) Number
+    정수와 관련된 유용한 기능을 지원하는 객체
+*/
+//아래에 데이터는 그냥 문자 수준이 아니라, 자바, c#등 객체 지향 프로그래밍 언어에서는
+//String 객체로 지원된다 String 도 객체이므로, 자체적으로 속성과 메서드가 있다!!
+var s1 = "korea fighting";
+// for(var i=0; i<s1.length; i++){
+//     document.write(s1.charAt(i));
+// }
+//문자열의 제일 마지막 문자만 출력하시오
+// document.write(s1.charAt(s1.length-1));
+// document.write(s1.toUpperCase());
+// var s2="photo.jpg";
+// var arr = s2.split("."); //점을 기준으로 문자열을 분리시켜라!!
+// document.write(arr[1]);
+// //일부 문자열을 substring 이라한다!
+// You look
+var s3="today you look feel tired very much";
+var res = s3.substring(6,14);
+document.write(res);
+</script>
+</head>
+<body>
+    
+</body>
+</html>
